@@ -136,7 +136,17 @@ int main()
 		cout << endl << "Masukkan piliha (1-5): ";
 		cin >> ch;
 		switch (ch)
-		
+		{
+		case '1':
+		{
+			mhs.addNode();
+
+		}
+		break;
+
+
+
+
 
 
 
