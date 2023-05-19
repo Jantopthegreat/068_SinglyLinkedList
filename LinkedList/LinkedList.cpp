@@ -16,7 +16,12 @@ public:
 	List();
 	void addNode();
 	bool search(int nim, Node** current, Node** previous);
-	bool listrempty();
+	bool listempty();
 	bool delNode(int element);
 	void traverse();
 };
+
+List::List()
+{
+	START = NULL;
+}
