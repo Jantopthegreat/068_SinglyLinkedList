@@ -160,8 +160,12 @@ int main()
 		}
 		break;
 		case '3':
+		{
 
 			mhs.traverse();
+		}
+		break;
+		case '4':
 			{
 				if (mhs.listempty() == true)
 				{
